@@ -1,4 +1,4 @@
- h1{
+ /* h1{
     color: red;
 }
 h2{
@@ -9,19 +9,38 @@ h2{
 }
 #oi-som{
     color: aquamarine;
-} 
+}  */
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+#container{
+    height: 35px;
+    width: 40vw;
+    color: red;
+}
 
+* {
+    font-family: "Inter", sans-serif;
+}
 
 #titulo{
     color: red;
     font-size: 42px;
     text-align: center;
-    font-family: "Bitcount Ink", system-ui;
+    font-family: "Inter", system-ui;
+}
+
+#guia-eleitor{
+    color: lightblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#rodape{
+    color: gray;
+    font-size: 12px;
 }
 
 #paragrafo {
