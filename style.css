@@ -1,0 +1,36 @@
+ h1{
+    color: red;
+}
+h2{
+    color: yellow;
+}
+.texto {
+    color: blue;
+}
+#oi-som{
+    color: aquamarine;
+} 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+#titulo{
+    color: red;
+    font-size: 42px;
+    text-align: center;
+    font-family: "Bitcount Ink", system-ui;
+}
+
+#paragrafo {
+    color: cadetblue;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
